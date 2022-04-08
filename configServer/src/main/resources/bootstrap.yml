@@ -1,0 +1,13 @@
+server:
+  port: 8081
+  
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          # URI del repositorio
+          uri: https://github.com/rafita12/bootCampConfigService.git
+          # Carpeta con los archivos de configuracion
+          searchPaths:: config-data
+ 
